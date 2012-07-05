@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE JposEntries PUBLIC "-//JavaPOS//DTD//EN"
+                             "jpos/res/jcl.dtd">
+<JposEntries>
+
+   <JposEntry logicalName="defaultLineDisplay">
+        <creation factoryClass="org.jumpmind.pos.javapos.sim.SimulatedServiceInstanceFactory" serviceClass="org.jumpmind.pos.javapos.sim.SimulatedLineDisplayService"/>
+        <vendor name="JumpMind, Inc" url="http://www.jumpmind.com"/>
+        <jpos category="LineDisplay" version="1.11"/>
+        <product description="Simulated Line Display" name="Simulated LineDisplay Service for JavaPOS(TM) Standard" url="http://www.javapos.com"/>        
+    </JposEntry> 
+    
+   <JposEntry logicalName="defaultMSR">
+        <creation factoryClass="org.jumpmind.pos.javapos.sim.SimulatedServiceInstanceFactory" serviceClass="org.jumpmind.pos.javapos.sim.SimulatedMSRService"/>
+        <vendor name="JumpMind, Inc" url="http://www.jumpmind.com"/>
+        <jpos category="MSR" version="1.11"/>
+        <product description="Simulated MSR" name="Simulated MSR Service for JavaPOS(TM) Standard" url="http://www.javapos.com"/>        
+    </JposEntry> 
+    
+    <JposEntry logicalName="defaultPOSPrinter">
+        <creation factoryClass="org.jumpmind.pos.javapos.sim.SimulatedServiceInstanceFactory" serviceClass="org.jumpmind.pos.javapos.sim.SimulatedPOSPrinterService"/>
+        <vendor name="Ergio" url="http://www.jumpmind.com"/>
+        <jpos category="POS Printer" version="1.11"/>
+        <product description="Simulated POS Printer" name="Simulated POS Printer Service for JavaPOS(TM) Standard" url="http://www.javapos.com"/>        
+    </JposEntry> 
+    
+    <JposEntry logicalName="fiscalprinter">
+        <creation factoryClass="org.jumpmind.pos.javapos.sim.SimulatedServiceInstanceFactory" serviceClass="org.jumpmind.pos.javapos.sim.SimulatedFiscalPrinterService"/>
+        <vendor name="JumpMind, Inc" url="http://www.jumpmind.com"/>
+        <jpos category="Fiscal Printer" version="1.11"/>
+        <product description="Simulated Fiscal Printer" name="Simulated Fiscal Printer Service for JavaPOS(TM) Standard" url="http://www.javapos.com"/>        
+    </JposEntry> 
+    
+    <JposEntry logicalName="defaultSigcap">
+        <creation factoryClass="org.jumpmind.pos.javapos.sim.SimulatedServiceInstanceFactory" serviceClass="org.jumpmind.pos.javapos.sim.SimulatedSignatureCaptureService"/>
+        <vendor name="JumpMind, Inc" url="http://www.jumpmind.com"/>
+        <jpos category="Signature Capture" version="1.11"/>
+        <product description="Simulated Signature Capture" name="Simulated Signature Capture for JavaPOS(TM) Standard" url="http://www.javapos.com"/>        
+    </JposEntry>  
+        
+    <JposEntry logicalName="defaultPINPad">
+        <creation factoryClass="org.jumpmind.pos.javapos.sim.SimulatedServiceInstanceFactory" serviceClass="org.jumpmind.pos.javapos.sim.SimulatedPINPadService"/>
+        <vendor name="JumpMind, Inc" url="http://www.jumpmind.com"/>
+        <jpos category="PinPad" version="1.11"/>
+        <product description="Simulated PIN Pad" name="Simulated PIN Pad for JavaPOS(TM) Standard" url="http://www.javapos.com"/>        
+    </JposEntry>  
+        
+</JposEntries>
