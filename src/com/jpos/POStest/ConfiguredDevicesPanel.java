@@ -45,7 +45,7 @@ public class ConfiguredDevicesPanel extends Component{
 		
 		Object[][] data = new Object[reg.getSize()][4]; 
 		
-		Enumeration entriesEnum = reg.getEntries();
+		Enumeration<?> entriesEnum = reg.getEntries();
 		int count = 0;
 		while(entriesEnum.hasMoreElements()){
 			JposEntry entry = (JposEntry)entriesEnum.nextElement();

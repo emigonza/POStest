@@ -53,7 +53,7 @@ public class FirmwareUpdateDlg extends JDialog implements ActionListener, Status
     /** Creates a new instance of FirmwareUpdateDlg */
     public FirmwareUpdateDlg(Object object) throws Exception{
         deviceObject = object;
-        Class c = object.getClass();
+        Class<? extends Object> c = object.getClass();
         Method[] theMethods = c.getMethods();
         for (int i = 0; i < theMethods.length; i++) {
             if(theMethods[i].getName().equals("compareFirmwareVersion")){

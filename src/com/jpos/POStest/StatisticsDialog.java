@@ -52,7 +52,7 @@ public class StatisticsDialog extends JDialog implements ActionListener{
     /** Creates a new instance of StatisticsDialog */
     public StatisticsDialog(Object object) throws Exception{
         deviceObject = object;
-        Class c = object.getClass();
+        Class<? extends Object> c = object.getClass();
         Method[] theMethods = c.getMethods();
         
         for (int i = 0; i < theMethods.length; i++) {
