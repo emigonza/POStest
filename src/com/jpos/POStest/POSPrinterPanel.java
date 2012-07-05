@@ -755,7 +755,7 @@ public class POSPrinterPanel extends Component {
                 try{
                     int retVal = bitmapFileChooser.showOpenDialog(null);
                     if(retVal == JFileChooser.APPROVE_OPTION){
-                        bitmapFileName.setText(bitmapFileChooser.getSelectedFile().toURL().toString());
+                        bitmapFileName.setText(bitmapFileChooser.getSelectedFile().toURI().toString());
                     }
                 } catch(Exception e){
                     
